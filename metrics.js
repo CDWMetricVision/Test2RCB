@@ -10,8 +10,8 @@ async function getARNQueryParams() {
 }
 
 async function customTimeFetchCloudWatchData(customStartTimeandDate, customEndTimeandDate) {
-    // let baseURL = "https://yfa9htwb2c.execute-api.us-east-1.amazonaws.com/testing/metrics";
-    let baseURL = "https://szw9nl20j5.execute-api.us-east-1.amazonaws.com/test/Any";
+
+    let baseURL = "https://9v5jzdmc6a.execute-api.us-east-1.amazonaws.com/test/Any";
     let customStartTimeParam = '';
     let customEndTimeParam = '';
     if (customStartTimeandDate && customEndTimeandDate) {
