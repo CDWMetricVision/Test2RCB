@@ -1,13 +1,13 @@
-//sandboxdev AWS Connect instance
+//mastest2
 let customer1 = {
-    "connectARN": "08aaaa8c-2bbf-4571-8570-f853f6b7dba0",
-    "contactFlowARN": "669aa1e2-2530-4475-8ec8-693ee6b84c1d"
+    "connectARN": "ce2575a1-6ad8-4694-abd6-53acf392c698",
+    "contactFlowARN": "1165bcb6-ac61-4faf-b143-c77b25d1f792"
 }
 
-//mastest1 AWS Connect instance
+//mastest2instance2
 let customer2 = {
-    "connectARN": "08aaaa8c-2bbf-4571-8570-f853f6b7dba0",
-    "contactFlowARN": "669aa1e2-2530-4475-8ec8-693ee6b84c1d"
+    "connectARN": "d8445c54-35f2-4e65-ab0f-9c98889bdb0c",
+    "contactFlowARN": "29ac3328-5529-4fd3-b51e-3aab08ec3432"
 }
 
 customer1Button = document.querySelector("#customer1")
