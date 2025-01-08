@@ -1,0 +1,19 @@
+body {
+    background-image: url('download%20(1).png'); /* Replace 'background.jpg' with your image file name */
+    background-size: auto; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background stay fixed when scrolling */
+    background-position: center; /* Centers the background image */
+}
+
+/* Optional: Style for text and buttons */
+p {
+    color: #cb3c5d; /* Ensures text is readable on a dark image */
+    font-size: 24px;
+}
+
+button {
+    font-size: 16px;
+    color: rgb(223, 220, 220);
+    border: none;
+}

@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+label {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+input[type="date"],
+input[type="time"],
+button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dataTables {
+    margin-top: 30px;
+}
+
+.loading {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .col {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    input[type="date"],
+    input[type="time"],
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
